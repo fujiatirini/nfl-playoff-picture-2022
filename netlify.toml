@@ -1,11 +1,4 @@
-[build]
-  publish = "."
 
-[[redirects]]
-  from = "https://nfl-playoff-picture-2022.netlify.app/*"
-  to = "https://en.newsline.buzz/"
-  status = 301
-  force = true
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
