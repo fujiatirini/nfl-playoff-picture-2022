@@ -1,5 +1,16 @@
 
 
+
+[[redirects]]
+  from = "https://nfl-playoff-picture-2022.netlify.app/"
+  to = "https://en.newsline.buzz/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+
+
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
